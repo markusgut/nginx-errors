@@ -1,0 +1,207 @@
+{
+  "language": "ar",
+  "button": "رجوع",
+  "errors": {
+    "400": {
+      "title": "Bad Request",
+      "description": "لا يمكن للخادم معالجة الطلب بسبب خطأ من جانب العميل.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "401": {
+      "title": "Unauthorized",
+      "description": "لم يتم تنفيذ الطلب لعدم وجود بيانات اعتماد صالحة للوصول إلى المورد.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "402": {
+      "title": "Payment Required",
+      "description": "مخصص للاستخدام في المستقبل.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "403": {
+      "title": "Forbidden",
+      "description": "رفض الخادم السماح بتنفيذ هذا الطلب لعدم وجود الإذن.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "404": {
+      "title": "Not Found",
+      "description": "الملف أو الصفحة المطلوبة غير موجودة في هذا العنوان.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "405": {
+      "title": "Method Not Allowed",
+      "description": "الطريقة المستخدمة في الطلب غير مدعومة لهذا المورد.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "406": {
+      "title": "Not Acceptable",
+      "description": "لا توجد نسخة من المورد بتنسيق مقبول لطلبك.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "407": {
+      "title": "Proxy Authentication Required",
+      "description": "يحتاج العميل إلى المصادقة لاستخدام الخادم الوسيط.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "408": {
+      "title": "Request Timeout",
+      "description": "لم يستلم الخادم رسالة طلب كاملة خلال الفترة الزمنية المخصصة له.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "409": {
+      "title": "Conflict",
+      "description": "تعذر إتمام الطلب بسبب تعارض مع الحالة الحالية للمورد.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "410": {
+      "title": "Gone",
+      "description": "لم يعد الوصول إلى المورد متاحًا على الخادم الأصلي.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "411": {
+      "title": "Length Required",
+      "description": "يرفض الخادم قبول الطلب دون تحديد طول المحتوى.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "412": {
+      "title": "Precondition Failed",
+      "description": "لم تتحقق إحدى الشروط أو أكثر الموجودة في ترويسة الطلب عند فحصها على الخادم.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "413": {
+      "title": "Payload Too Large",
+      "description": "يرفض الخادم معالجة الطلب لأن حجم المحتوى أكبر مما يسمح به.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "414": {
+      "title": "URI Too Long",
+      "description": "يرفض الخادم معالجة الطلب لأن عنوان الطلب أطول مما يمكن تفسيره.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "415": {
+      "title": "Unsupported Media Type",
+      "description": "يرفض الخادم معالجة الطلب لأن تنسيق المحتوى غير مدعوم لهذه العملية.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "416": {
+      "title": "Range Not Satisfiable",
+      "description": "تم رفض مجموعة النطاقات المطلوبة لكونها غير صالحة.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "417": {
+      "title": "Expectation Failed",
+      "description": "لا يمكن للخادم تلبية التوقع المذكور في ترويسة 'Expect' للطلب.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "418": {
+      "title": "I'm a teapot",
+      "description": "لا أستطيع تحضير قهوتك لأنني إبريق شاي.",
+      "conclusion": "أعتذر عن الإزعاج"
+    },
+    "421": {
+      "title": "Misdirected Request",
+      "description": "الخادم غير مهيأ للرد على هذا الطلب اعتمادًا على عنوانه.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "422": {
+      "title": "Unprocessable Entity",
+      "description": "تعذر على الخادم معالجة التعليمات المرسلة في الطلب.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "423": {
+      "title": "Locked",
+      "description": "المورد المطلوب مغلق ولا يمكن الوصول إليه حالياً.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "424": {
+      "title": "Failed Dependency",
+      "description": "تعذر تنفيذ العملية لأن إجراءً آخر تعتمد عليه قد فشل.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "425": {
+      "title": "Too Early",
+      "description": "الخادم يرفض معالجة طلب قد يكون مكررًا (إعادة تنفيذ لطلب سابق).",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "426": {
+      "title": "Upgrade Required",
+      "description": "يرفض الخادم تنفيذ الطلب باستخدام البروتوكول الحالي.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "428": {
+      "title": "Precondition Required",
+      "description": "يتطلب الخادم أن يكون الطلب مشروطًا قبل معالجته.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "429": {
+      "title": "Too Many Requests",
+      "description": "تم إرسال عدد كبير جدًا من الطلبات في فترة زمنية قصيرة.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "431": {
+      "title": "Request Header Fields Too Large",
+      "description": "الخادم يرفض معالجة الطلب لأن ترويسة الطلب كبيرة جدًا.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "451": {
+      "title": "Unavailable For Legal Reasons",
+      "description": "الخادم يمنع الوصول إلى المورد استجابةً لمطلب قانوني.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "500": {
+      "title": "Internal server error",
+      "description": "واجه الخادم حالة غير متوقعة منعت تنفيذ الطلب.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "501": {
+      "title": "Not Implemented",
+      "description": "الخادم لا يدعم الوظيفة المطلوبة لتنفيذ هذا الطلب.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "502": {
+      "title": "Bad Gateway",
+      "description": "أثناء عمله كوسيط، تلقى الخادم ردًا غير صالحًا من خادم آخر.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "503": {
+      "title": "Service Unavailable",
+      "description": "الخادم متوقف مؤقتًا للصيانة.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "504": {
+      "title": "Gateway Timeout",
+      "description": "أثناء عمله كوسيط، لم يتلقَ الخادم ردًا في الوقت المناسب من خادم آخر.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "505": {
+      "title": "HTTP Version Not Supported",
+      "description": "الخادم لا يدعم إصدار HTTP المستخدم في الطلب.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "506": {
+      "title": "Variant Also Negotiates",
+      "description": "يوجد خطأ في تكوين الخادم الداخلي.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "507": {
+      "title": "Insufficient Storage",
+      "description": "الخادم غير قادر على تخزين المحتوى المطلوب لإكمال الطلب.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "508": {
+      "title": "Loop Detected",
+      "description": "أوقف الخادم العملية بعد اكتشاف حلقة لا نهائية أثناء المعالجة.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "510": {
+      "title": "Not Extended",
+      "description": "لم يتم استيفاء شروط سياسة الوصول للمورد في الطلب.",
+      "conclusion": "نعتذر عن الإزعاج"
+    },
+    "511": {
+      "title": "Network Authentication Required",
+      "description": "يحتاج العميل إلى المصادقة للحصول على الوصول إلى الشبكة.",
+      "conclusion": "نعتذر عن الإزعاج"
+    }
+  }
+}
+

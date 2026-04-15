@@ -1,0 +1,207 @@
+{
+  "language": "zh-CN",
+  "button": "返回",
+  "errors": {
+    "400": {
+      "title": "Bad Request",
+      "description": "由于客户端请求存在错误，服务器无法处理该请求。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "401": {
+      "title": "Unauthorized",
+      "description": "请求未提供有效的身份验证凭据，无法访问目标资源。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "402": {
+      "title": "Payment Required",
+      "description": "保留供将来使用。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "403": {
+      "title": "Forbidden",
+      "description": "服务器拒绝授权该请求。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "404": {
+      "title": "Not Found",
+      "description": "在该地址找不到请求的文件或页面。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "405": {
+      "title": "Method Not Allowed",
+      "description": "请求行中使用的方法不被目标资源支持。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "406": {
+      "title": "Not Acceptable",
+      "description": "目标资源没有可被用户代理接受的当前表示。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "407": {
+      "title": "Proxy Authentication Required",
+      "description": "客户端必须先通过代理进行身份验证才能使用该代理。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "408": {
+      "title": "Request Timeout",
+      "description": "服务器在准备等待的时间内未收到完整的请求消息。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "409": {
+      "title": "Conflict",
+      "description": "由于与目标资源当前状态存在冲突，请求无法完成。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "410": {
+      "title": "Gone",
+      "description": "目标资源在原始服务器上已不再可用。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "411": {
+      "title": "Length Required",
+      "description": "服务器拒绝在未提供 Content-Length 的情况下接受请求。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "412": {
+      "title": "Precondition Failed",
+      "description": "请求头中的一个或多个先决条件在服务器上不满足。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "413": {
+      "title": "Payload Too Large",
+      "description": "请求的负载超过服务器愿意处理的大小，服务器拒绝处理该请求。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "414": {
+      "title": "URI Too Long",
+      "description": "请求目标的长度超过服务器愿意解释的范围，服务器拒绝服务该请求。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "415": {
+      "title": "Unsupported Media Type",
+      "description": "请求的负载格式不被目标资源支持，服务器拒绝处理该请求。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "416": {
+      "title": "Range Not Satisfiable",
+      "description": "所请求的范围无效，服务器拒绝了该范围请求。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "417": {
+      "title": "Expectation Failed",
+      "description": "请求中 Expect 头部的期望无法被服务器满足。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "418": {
+      "title": "I'm a teapot",
+      "description": "我是一只茶壶，无法为您煮咖啡。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "421": {
+      "title": "Misdirected Request",
+      "description": "服务器未针对请求 URI 中的方案和权限组合配置为生成响应。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "422": {
+      "title": "Unprocessable Entity",
+      "description": "服务器无法处理请求所包含的指令，通常是由于语义错误。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "423": {
+      "title": "Locked",
+      "description": "请求的方法所涉及的源或目标资源被锁定。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "424": {
+      "title": "Failed Dependency",
+      "description": "由于依赖的操作失败，请求的操作无法在资源上执行。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "425": {
+      "title": "Too Early",
+      "description": "服务器不愿冒险处理可能被重放的请求。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "426": {
+      "title": "Upgrade Required",
+      "description": "服务器拒绝使用当前协议执行请求，需要升级协议。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "428": {
+      "title": "Precondition Required",
+      "description": "源服务器要求请求为有条件的（需要先决条件）。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "429": {
+      "title": "Too Many Requests",
+      "description": "在给定时间内用户发送了过多的请求。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "431": {
+      "title": "Request Header Fields Too Large",
+      "description": "请求头字段过大，服务器不愿意处理该请求。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "451": {
+      "title": "Unavailable For Legal Reasons",
+      "description": "由于法律要求，服务器拒绝访问该资源。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "500": {
+      "title": "Internal server error",
+      "description": "服务器遇到意外情况，无法完成请求。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "501": {
+      "title": "Not Implemented",
+      "description": "服务器不支持完成请求所需的功能。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "502": {
+      "title": "Bad Gateway",
+      "description": "作为网关或代理时，服务器从上游服务器接收到无效响应。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "503": {
+      "title": "Service Unavailable",
+      "description": "服务器当前正在维护，暂时不可用。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "504": {
+      "title": "Gateway Timeout",
+      "description": "作为网关或代理时，服务器未能在规定时间内从上游服务器收到响应。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "505": {
+      "title": "HTTP Version Not Supported",
+      "description": "服务器不支持请求所使用的 HTTP 版本。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "506": {
+      "title": "Variant Also Negotiates",
+      "description": "服务器存在内部配置错误，导致协商失败。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "507": {
+      "title": "Insufficient Storage",
+      "description": "服务器无法存储完成请求所需的表示。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "508": {
+      "title": "Loop Detected",
+      "description": "服务器在处理请求时检测到无限循环，已终止操作。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "510": {
+      "title": "Not Extended",
+      "description": "请求未满足访问资源所需的扩展策略。",
+      "conclusion": "抱歉给您带来不便。"
+    },
+    "511": {
+      "title": "Network Authentication Required",
+      "description": "客户端需要进行网络身份验证以获得网络访问权限。",
+      "conclusion": "抱歉给您带来不便。"
+    }
+  }
+}
+

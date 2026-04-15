@@ -1,0 +1,103 @@
+{
+  "name": "custom-error-pages",
+  "version": "0.1.0-alpha",
+  "description": "Create full sets of custom HTTP error pages for Nginx, Apache or other web servers. Fully customizable & supports multiple languages.",
+  "type": "module",
+  "license": "BSD-2-Clause",
+  "repository": "github:custom-error-pages/custom-error-pages",
+  "maintainers": [
+    {
+      "name": "markusgut",
+      "url": "https://github.com/markusgut"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "markusgut",
+      "url": "https://github.com/markusgut"
+    },
+    {
+      "name": "bartosjiri",
+      "url": "https://github.com/bartosjiri"
+    },
+    {
+      "name": "patrick7",
+      "url": "https://github.com/patrick7"
+    }
+  ],
+  "scripts": {
+    "clean-install": "npx rimraf node_modules package-lock.json && npm --silent install && echo Cleaned node_modules and reinstalled dependencies...",
+    "clean-build": "npx rimraf dist && echo Cleaned dist folder...",
+    "clean": "npm run clean-install && npm run clean-build",
+    "test-html": "npx eslint src/html/template.ejs && echo Success! Passed html tests!",
+    "test-css": "npx stylelint src/css/style.scss && echo Success! Passed scss tests!",
+    "test-js": "npx eslint src/js/script.js && echo Success! Passed js tests!",
+    "test": "npm run test-html && npm run test-css && npm run test-js",
+    "build-html": "node render-html.js && echo Built html...",
+    "build-css-sass": "npx sass src/css/style.scss dist/css/style.css && echo Built css with sass...",
+    "build-css-postcss": "npx postcss dist/css/style.css --output dist/css/style.min.css && echo Built min.css with postcss...",
+    "build-css": " npm run build-css-sass && npm run build-css-postcss",
+    "build-js": "npx terser src/js/script.js --output dist/js/script.min.js --compress --mangle --source-map && echo Built .min.js with terser...",
+    "build-fonts": "npx copyfiles -u 1 src/fonts/* dist && echo Copied fonts...",
+    "build": "npm run build-html && npm run build-css && npm run build-js && npm run build-fonts && echo SUCCESS! Fully built!",
+    "fullbuild": "npm run clean && npm run test && npm run build",
+    "watch": "npm run build && npx npm-watch"
+  },
+  "watch": {
+    "build-html": {
+      "patterns": [
+        "src/html/"
+      ],
+      "extensions": [
+        "ejs",
+        "json"
+      ],
+      "quiet": true,
+      "delay": 100
+    },
+    "build-css": {
+      "patterns": [
+        "src/css/"
+      ],
+      "extensions": "scss",
+      "quiet": true,
+      "delay": 100
+    },
+    "build-js": {
+      "patterns": [
+        "src/js/"
+      ],
+      "extensions": "js",
+      "quiet": true,
+      "delay": 100
+    },
+    "build-fonts": {
+      "patterns": [
+        "src/fonts/**/*"
+      ],
+      "extensions": "*",
+      "quiet": true,
+      "delay": 10000
+    }
+  },
+  "devDependencies": {
+    "@eslint/css": "^1.1.0",
+    "@eslint/js": "^10.0.1",
+    "@html-eslint/eslint-plugin": "^0.59.0",
+    "@html-eslint/parser": "^0.59.0",
+    "autoprefixer": "^10.4.27",
+    "copyfiles": "^2.4.1",
+    "cssnano": "^7.1.5",
+    "cssnano-preset-advanced": "^7.0.13",
+    "ejs": "^5.0.2",
+    "eslint": "^10.2.0",
+    "npm-watch": "^0.13.0",
+    "postcss": "^8.5.9",
+    "postcss-cli": "^11.0.1",
+    "rifraf": "^2.0.3",
+    "sass": "^1.99.0",
+    "stylelint": "^17.7.0",
+    "stylelint-config-recommended-scss": "^17.0.1",
+    "terser": "^5.46.1"
+  }
+}

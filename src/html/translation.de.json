@@ -1,0 +1,207 @@
+{
+  "language": "de",
+  "button": "Zurück",
+  "errors": {
+    "400": {
+      "title": "Bad Request",
+      "description": "Der Server kann die Anfrage wegen eines Fehlers in der übermittelten Anfrage nicht verarbeiten.",
+      "conclusion": "Das tut uns leid."
+    },
+    "401": {
+      "title": "Unauthorized",
+      "description": "Die Anfrage wurde abgelehnt, weil keine gültigen Anmeldeinformationen geliefert wurden.",
+      "conclusion": "Das tut uns leid."
+    },
+    "402": {
+      "title": "Payment Required",
+      "description": "Reserviert für eine zukünftige Verwendung.",
+      "conclusion": "Das tut uns leid."
+    },
+    "403": {
+      "title": "Forbidden",
+      "description": "Der Server erlaubt den Zugriff auf die gewünschte Ressource nicht.",
+      "conclusion": "Das tut uns leid."
+    },
+    "404": {
+      "title": "Not Found",
+      "description": "Die angeforderte Seite oder Datei wurde unter dieser Adresse nicht gefunden.",
+      "conclusion": "Das tut uns leid."
+    },
+    "405": {
+      "title": "Method Not Allowed",
+      "description": "Die verwendete Anfragemethode wird für diese Ressource nicht unterstützt.",
+      "conclusion": "Das tut uns leid."
+    },
+    "406": {
+      "title": "Not Acceptable",
+      "description": "Der Server kann die Antwort nicht in einem Format liefern, das Ihr Browser akzeptiert.",
+      "conclusion": "Das tut uns leid."
+    },
+    "407": {
+      "title": "Proxy Authentication Required",
+      "description": "Sie müssen sich zuerst beim Vermittler-Server anmelden, um diesen Dienst zu nutzen.",
+      "conclusion": "Das tut uns leid."
+    },
+    "408": {
+      "title": "Request Timeout",
+      "description": "Der Server hat zu lange auf die vollständige Anfrage gewartet und die Verbindung abgebrochen.",
+      "conclusion": "Das tut uns leid."
+    },
+    "409": {
+      "title": "Conflict",
+      "description": "Die Anfrage konnte nicht abgeschlossen werden, weil sie mit dem aktuellen Zustand der Ressource in Konflikt steht.",
+      "conclusion": "Das tut uns leid."
+    },
+    "410": {
+      "title": "Gone",
+      "description": "Die angefragte Ressource wurde dauerhaft entfernt und steht nicht mehr zur Verfügung.",
+      "conclusion": "Das tut uns leid."
+    },
+    "411": {
+      "title": "Length Required",
+      "description": "Der Server verlangt, dass die Größe der gesendeten Daten angegeben wird.",
+      "conclusion": "Das tut uns leid."
+    },
+    "412": {
+      "title": "Precondition Failed",
+      "description": "Eine oder mehrere Bedingungen in der Anfrage wurden nicht erfüllt.",
+      "conclusion": "Das tut uns leid."
+    },
+    "413": {
+      "title": "Payload Too Large",
+      "description": "Die gesendeten Daten sind zu groß für den Server und werden nicht verarbeitet.",
+      "conclusion": "Das tut uns leid."
+    },
+    "414": {
+      "title": "URI Too Long",
+      "description": "Die angeforderte Adresse (URL) ist zu lang, um sie zu verarbeiten.",
+      "conclusion": "Das tut uns leid."
+    },
+    "415": {
+      "title": "Unsupported Media Type",
+      "description": "Das Format der gesendeten Daten wird von diesem Server nicht unterstützt.",
+      "conclusion": "Das tut uns leid."
+    },
+    "416": {
+      "title": "Range Not Satisfiable",
+      "description": "Die angeforderten Teile der Datei können nicht bereitgestellt werden (ungültige Bereichsangaben).",
+      "conclusion": "Das tut uns leid."
+    },
+    "417": {
+      "title": "Expectation Failed",
+      "description": "Eine in der Anfrage gestellte Erwartung konnte vom Server nicht erfüllt werden.",
+      "conclusion": "Das tut uns leid."
+    },
+    "418": {
+      "title": "I'm a teapot",
+      "description": "Ich kann Ihren Kaffee nicht zubereiten, weil ich eine Teekanne bin.",
+      "conclusion": "Das tut mir leid."
+    },
+    "421": {
+      "title": "Misdirected Request",
+      "description": "Der Server ist nicht dafür eingerichtet, für diese Adresse eine Antwort zu liefern.",
+      "conclusion": "Das tut uns leid."
+    },
+    "422": {
+      "title": "Unprocessable Entity",
+      "description": "Der Server konnte die enthaltenen Anweisungen nicht verarbeiten.",
+      "conclusion": "Das tut uns leid."
+    },
+    "423": {
+      "title": "Locked",
+      "description": "Die angefragte Ressource ist gesperrt und kann momentan nicht verändert werden.",
+      "conclusion": "Das tut uns leid."
+    },
+    "424": {
+      "title": "Failed Dependency",
+      "description": "Die angeforderte Aktion konnte nicht ausgeführt werden, weil eine davon abhängige Aktion fehlgeschlagen ist.",
+      "conclusion": "Das tut uns leid."
+    },
+    "425": {
+      "title": "Too Early",
+      "description": "Der Server lehnt die Verarbeitung ab, weil die Anfrage möglicherweise zu früh oder wiederholt ist.",
+      "conclusion": "Das tut uns leid."
+    },
+    "426": {
+      "title": "Upgrade Required",
+      "description": "Der Server verlangt ein Upgrade der Verbindungsart bzw. des Protokolls, um die Anfrage zu bearbeiten.",
+      "conclusion": "Das tut uns leid."
+    },
+    "428": {
+      "title": "Precondition Required",
+      "description": "Der Server verlangt, dass die Anfrage bestimmte Bedingungen enthält (z. B. um Änderungen zu schützen).",
+      "conclusion": "Das tut uns leid."
+    },
+    "429": {
+      "title": "Too Many Requests",
+      "description": "Es wurden in kurzer Zeit zu viele Anfragen gesendet; bitte versuchen Sie es später noch einmal.",
+      "conclusion": "Das tut uns leid."
+    },
+    "431": {
+      "title": "Request Header Fields Too Large",
+      "description": "Die Angaben in den Kopfzeilen der Anfrage sind zu umfangreich und können nicht verarbeitet werden.",
+      "conclusion": "Das tut uns leid."
+    },
+    "451": {
+      "title": "Unavailable For Legal Reasons",
+      "description": "Der Zugriff auf diese Ressource wurde aus rechtlichen Gründen gesperrt.",
+      "conclusion": "Das tut uns leid."
+    },
+    "500": {
+      "title": "Internal server error",
+      "description": "Der Server ist auf einen unerwarteten Fehler gestoßen und konnte die Anfrage nicht verarbeiten.",
+      "conclusion": "Das tut uns leid."
+    },
+    "501": {
+      "title": "Not Implemented",
+      "description": "Der Server unterstützt die angeforderte Funktion nicht.",
+      "conclusion": "Das tut uns leid."
+    },
+    "502": {
+      "title": "Bad Gateway",
+      "description": "Der Server hat eine ungültige Antwort von einem anderen Server erhalten und kann die Anfrage nicht weiterleiten.",
+      "conclusion": "Das tut uns leid."
+    },
+    "503": {
+      "title": "Service Unavailable",
+      "description": "Der Server ist derzeit nicht erreichbar, zum Beispiel wegen Wartungsarbeiten.",
+      "conclusion": "Das tut uns leid."
+    },
+    "504": {
+      "title": "Gateway Timeout",
+      "description": "Der Server hat keine rechtzeitige Antwort von einem anderen Server erhalten und die Anfrage abgebrochen.",
+      "conclusion": "Das tut uns leid."
+    },
+    "505": {
+      "title": "HTTP Version Not Supported",
+      "description": "Der Server unterstützt nicht die verwendete Hauptversion des HTTP-Protokolls.",
+      "conclusion": "Das tut uns leid."
+    },
+    "506": {
+      "title": "Variant Also Negotiates",
+      "description": "Auf dem Server liegt ein interner Konfigurationsfehler vor.",
+      "conclusion": "Das tut uns leid."
+    },
+    "507": {
+      "title": "Insufficient Storage",
+      "description": "Dem Server steht nicht genügend Speicher zur Verfügung, um die Anfrage abzuschließen.",
+      "conclusion": "Das tut uns leid."
+    },
+    "508": {
+      "title": "Loop Detected",
+      "description": "Der Server hat die Verarbeitung abgebrochen, weil eine Endlosschleife festgestellt wurde.",
+      "conclusion": "Das tut uns leid."
+    },
+    "510": {
+      "title": "Not Extended",
+      "description": "Für den Zugriff auf diese Ressource werden zusätzliche Erweiterungen oder Angaben benötigt.",
+      "conclusion": "Das tut uns leid."
+    },
+    "511": {
+      "title": "Network Authentication Required",
+      "description": "Sie müssen sich authentifizieren, um Netzwerkzugang zu erhalten.",
+      "conclusion": "Das tut uns leid."
+    }
+  }
+}
+

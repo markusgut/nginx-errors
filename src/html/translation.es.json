@@ -1,0 +1,207 @@
+{
+  "language": "es",
+  "button": "Volver",
+  "errors": {
+    "400": {
+      "title": "Bad Request",
+      "description": "El servidor no puede procesar la solicitud debido a un error del cliente.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "401": {
+      "title": "Unauthorized",
+      "description": "La solicitud no se ha aplicado porque carece de credenciales de autenticación válidas para el recurso de destino.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "402": {
+      "title": "Payment Required",
+      "description": "Reservado para uso futuro.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "403": {
+      "title": "Forbidden",
+      "description": "El servidor se negó a autorizar la solicitud.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "404": {
+      "title": "Not Found",
+      "description": "El archivo o la página solicitada no se puede encontrar en esta dirección.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "405": {
+      "title": "Method Not Allowed",
+      "description": "El método recibido en la línea de solicitud no es compatible con el recurso de destino.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "406": {
+      "title": "Not Acceptable",
+      "description": "El recurso de destino no tiene una representación actual que sea aceptable para el agente de usuario.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "407": {
+      "title": "Proxy Authentication Required",
+      "description": "El cliente necesita autenticarse para usar un proxy.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "408": {
+      "title": "Request Timeout",
+      "description": "El servidor no recibió un mensaje de solicitud completo dentro del tiempo que estuvo dispuesto a esperar.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "409": {
+      "title": "Conflict",
+      "description": "La solicitud no pudo completarse debido a un conflicto con el estado actual del recurso de destino.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "410": {
+      "title": "Gone",
+      "description": "El acceso al recurso de destino ya no está disponible en el servidor de origen.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "411": {
+      "title": "Length Required",
+      "description": "El servidor se niega a aceptar la solicitud sin un Content-Length definido.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "412": {
+      "title": "Precondition Failed",
+      "description": "Una o más condiciones dadas en los campos del encabezado de la solicitud se evaluaron como falsas al probarse en el servidor.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "413": {
+      "title": "Payload Too Large",
+      "description": "El servidor se niega a procesar la solicitud porque la carga útil es mayor de lo que está dispuesto a procesar.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "414": {
+      "title": "URI Too Long",
+      "description": "El servidor se niega a atender la solicitud porque el destino de la solicitud es más largo de lo que el servidor está dispuesto a interpretar.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "415": {
+      "title": "Unsupported Media Type",
+      "description": "El servidor de origen se niega a atender la solicitud porque la carga está en un formato no compatible con este método en el recurso de destino.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "416": {
+      "title": "Range Not Satisfiable",
+      "description": "El conjunto de rangos solicitados fue rechazado debido a rangos inválidos.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "417": {
+      "title": "Expectation Failed",
+      "description": "La expectativa indicada en el campo Expect del encabezado de la solicitud no pudo ser cumplida por el servidor entrante.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "418": {
+      "title": "I'm a teapot",
+      "description": "No puedo preparar su café porque soy una tetera.",
+      "conclusion": "I cannot brew your coffee because I'm a teapot."
+    },
+    "421": {
+      "title": "Misdirected Request",
+      "description": "El servidor no está configurado para producir respuestas para la combinación de esquema y autoridad incluidos en el URI de la solicitud.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "422": {
+      "title": "Unprocessable Entity",
+      "description": "El servidor no pudo procesar las instrucciones contenidas.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "423": {
+      "title": "Locked",
+      "description": "El recurso de origen o destino de un método está bloqueado.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "424": {
+      "title": "Failed Dependency",
+      "description": "El método no pudo ejecutarse en el recurso porque la acción solicitada dependía de otra acción que falló.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "425": {
+      "title": "Too Early",
+      "description": "El servidor no está dispuesto a arriesgarse a procesar una solicitud que pueda ser reproducida.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "426": {
+      "title": "Upgrade Required",
+      "description": "El servidor se niega a realizar la solicitud usando el protocolo actual.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "428": {
+      "title": "Precondition Required",
+      "description": "El servidor de origen exige que la solicitud sea condicional.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "429": {
+      "title": "Too Many Requests",
+      "description": "El usuario ha enviado demasiadas solicitudes en un período de tiempo determinado.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "431": {
+      "title": "Request Header Fields Too Large",
+      "description": "El servidor no está dispuesto a procesar la solicitud porque sus campos de encabezado son demasiado grandes.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "451": {
+      "title": "Unavailable For Legal Reasons",
+      "description": "El servidor está denegando el acceso al recurso como consecuencia de una demanda legal.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "500": {
+      "title": "Internal server error",
+      "description": "El servidor encontró una condición inesperada que le impidió cumplir la solicitud.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "501": {
+      "title": "Not Implemented",
+      "description": "El servidor no admite la funcionalidad necesaria para cumplir la solicitud.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "502": {
+      "title": "Bad Gateway",
+      "description": "El servidor, al actuar como gateway o proxy, recibió una respuesta inválida de un servidor entrante.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "503": {
+      "title": "Service Unavailable",
+      "description": "El servidor está actualmente en mantenimiento.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "504": {
+      "title": "Gateway Timeout",
+      "description": "El servidor, al actuar como gateway o proxy, no recibió una respuesta oportuna de un servidor upstream.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "505": {
+      "title": "HTTP Version Not Supported",
+      "description": "El servidor no admite la versión principal de HTTP que se usó en el mensaje de solicitud.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "506": {
+      "title": "Variant Also Negotiates",
+      "description": "El servidor tiene un error de configuración interno.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "507": {
+      "title": "Insufficient Storage",
+      "description": "El servidor no puede almacenar la representación necesaria para completar con éxito la solicitud.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "508": {
+      "title": "Loop Detected",
+      "description": "El servidor finalizó una operación porque encontró un bucle infinito al procesar la solicitud.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "510": {
+      "title": "Not Extended",
+      "description": "La política para acceder al recurso no se cumplió en la solicitud.",
+      "conclusion": "Lamentamos las molestias."
+    },
+    "511": {
+      "title": "Network Authentication Required",
+      "description": "El cliente necesita autenticarse para obtener acceso a la red.",
+      "conclusion": "Lamentamos las molestias."
+    }
+  }
+}
+

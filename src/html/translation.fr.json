@@ -1,0 +1,206 @@
+{
+  "language": "fr",
+  "button": "Retour",
+  "errors": {
+    "400": {
+      "title": "Bad Request",
+      "description": "Le serveur ne peut pas traiter la requête en raison d'une erreur dans la requête envoyée.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "401": {
+      "title": "Unauthorized",
+      "description": "La requête a été refusée car aucune information d'identification valide n'a été fournie.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "402": {
+      "title": "Payment Required",
+      "description": "Réservé pour une utilisation future.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "403": {
+      "title": "Forbidden",
+      "description": "Le serveur refuse l'accès à la ressource demandée.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "404": {
+      "title": "Not Found",
+      "description": "La page ou le fichier demandé n'a pas été trouvé à cette adresse.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "405": {
+      "title": "Method Not Allowed",
+      "description": "La méthode de requête utilisée n'est pas autorisée pour cette ressource.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "406": {
+      "title": "Not Acceptable",
+      "description": "Le serveur ne peut pas fournir la réponse dans un format accepté par votre navigateur.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "407": {
+      "title": "Proxy Authentication Required",
+      "description": "Vous devez d'abord vous authentifier auprès du serveur proxy pour utiliser ce service.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "408": {
+      "title": "Request Timeout",
+      "description": "Le serveur a attendu trop longtemps la fin de la requête et a fermé la connexion.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "409": {
+      "title": "Conflict",
+      "description": "La requête n'a pas pu être traitée car elle est en conflit avec l'état actuel de la ressource.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "410": {
+      "title": "Gone",
+      "description": "La ressource demandée a été définitivement supprimée et n'est plus disponible.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "411": {
+      "title": "Length Required",
+      "description": "Le serveur exige que la taille des données envoyées soit indiquée.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "412": {
+      "title": "Precondition Failed",
+      "description": "Une ou plusieurs conditions de la requête n'ont pas été remplies.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "413": {
+      "title": "Payload Too Large",
+      "description": "Les données envoyées sont trop volumineuses pour le serveur et ne sont pas traitées.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "414": {
+      "title": "URI Too Long",
+      "description": "L'adresse demandée (URL) est trop longue pour être traitée.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "415": {
+      "title": "Unsupported Media Type",
+      "description": "Le format des données envoyées n'est pas pris en charge par ce serveur.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "416": {
+      "title": "Range Not Satisfiable",
+      "description": "Les parties demandées du fichier ne peuvent pas être fournies (plages invalides).",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "417": {
+      "title": "Expectation Failed",
+      "description": "Une attente indiquée dans la requête n'a pas pu être satisfaite par le serveur.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "418": {
+      "title": "I'm a teapot",
+      "description": "Je ne peux pas préparer votre café car je suis une théière.",
+      "conclusion": "Je m'excuse pour la gêne occasionnée."
+    },
+    "421": {
+      "title": "Misdirected Request",
+      "description": "Le serveur n'est pas configuré pour fournir une réponse pour cette adresse.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "422": {
+      "title": "Unprocessable Entity",
+      "description": "Le serveur n'a pas pu traiter le contenu de la requête.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "423": {
+      "title": "Locked",
+      "description": "La ressource demandée est verrouillée et ne peut pas être modifiée pour le moment.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "424": {
+      "title": "Failed Dependency",
+      "description": "L'action demandée n'a pas pu être exécutée parce qu'une action dont elle dépend a échoué.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "425": {
+      "title": "Too Early",
+      "description": "Le serveur refuse de traiter la requête car elle peut être trop précoce ou répétée.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "426": {
+      "title": "Upgrade Required",
+      "description": "Le serveur demande une mise à niveau du protocole ou de la connexion pour traiter la requête.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "428": {
+      "title": "Precondition Required",
+      "description": "Le serveur exige que la requête contienne certaines conditions (par ex. pour protéger des modifications).",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "429": {
+      "title": "Too Many Requests",
+      "description": "Trop de requêtes ont été envoyées en peu de temps ; veuillez réessayer plus tard.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "431": {
+      "title": "Request Header Fields Too Large",
+      "description": "Les champs d'en-tête de la requête sont trop volumineux et ne peuvent pas être traités.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "451": {
+      "title": "Unavailable For Legal Reasons",
+      "description": "L'accès à cette ressource a été restreint pour des raisons légales.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "500": {
+      "title": "Internal server error",
+      "description": "Le serveur a rencontré une erreur inattendue et n'a pas pu traiter la requête.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "501": {
+      "title": "Not Implemented",
+      "description": "Le serveur ne prend pas en charge la fonctionnalité demandée.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "502": {
+      "title": "Bad Gateway",
+      "description": "Le serveur a reçu une réponse invalide d'un autre serveur et ne peut pas traiter la requête.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "503": {
+      "title": "Service Unavailable",
+      "description": "Le serveur est temporairement indisponible, par exemple pour maintenance.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "504": {
+      "title": "Gateway Timeout",
+      "description": "Le serveur n'a pas reçu de réponse à temps d'un autre serveur et a interrompu la requête.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "505": {
+      "title": "HTTP Version Not Supported",
+      "description": "Le serveur ne prend pas en charge la version du protocole HTTP utilisée.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "506": {
+      "title": "Variant Also Negotiates",
+      "description": "Le serveur présente une erreur de configuration interne.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "507": {
+      "title": "Insufficient Storage",
+      "description": "Le serveur n'a pas suffisamment d'espace de stockage pour terminer la requête.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "508": {
+      "title": "Loop Detected",
+      "description": "Le serveur a interrompu le traitement car une boucle infinie a été détectée.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "510": {
+      "title": "Not Extended",
+      "description": "L'accès à cette ressource nécessite des extensions ou des informations supplémentaires.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    },
+    "511": {
+      "title": "Network Authentication Required",
+      "description": "Vous devez vous authentifier pour obtenir l'accès au réseau.",
+      "conclusion": "Nous nous excusons pour la gêne occasionnée."
+    }
+  }
+}

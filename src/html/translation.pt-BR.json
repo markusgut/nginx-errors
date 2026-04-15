@@ -1,0 +1,207 @@
+{
+  "language": "pt-BR",
+  "button": "Voltar",
+  "errors": {
+    "400": {
+      "title": "Bad Request",
+      "description": "O servidor não pode processar a solicitação devido a um erro do cliente.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "401": {
+      "title": "Unauthorized",
+      "description": "A solicitação não foi aplicada porque não possui credenciais de autenticação válidas para o recurso de destino.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "402": {
+      "title": "Payment Required",
+      "description": "Lamentamos o inconveniente.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "403": {
+      "title": "Forbidden",
+      "description": "O servidor se recusou a autorizar a solicitação.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "404": {
+      "title": "Not Found",
+      "description": "O arquivo ou página solicitada não pode ser encontrada neste endereço.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "405": {
+      "title": "Method Not Allowed",
+      "description": "O método recebido na linha de solicitação não é compatível com o recurso de destino.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "406": {
+      "title": "Not Acceptable",
+      "description": "O recurso de destino não possui uma representação atual que seja aceitável para o agente do usuário.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "407": {
+      "title": "Proxy Authentication Required",
+      "description": "O cliente precisa se autenticar para usar um proxy.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "408": {
+      "title": "Request Timeout",
+      "description": "O servidor não recebeu uma mensagem de solicitação completa dentro do tempo em que estava preparado para aguardar.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "409": {
+      "title": "Conflict",
+      "description": "A solicitação não pôde ser concluída devido a um conflito com o estado atual do recurso de destino.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "410": {
+      "title": "Gone",
+      "description": "O acesso ao recurso de destino não está mais disponível no servidor de origem.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "411": {
+      "title": "Length Required",
+      "description": "O servidor se recusa a aceitar a solicitação sem um comprimento de conteúdo definido.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "412": {
+      "title": "Precondition Failed",
+      "description": "Uma ou mais condições fornecidas nos campos do cabeçalho da solicitação foram avaliadas como falsas quando testadas no servidor.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "413": {
+      "title": "Payload Too Large",
+      "description": "O servidor se recusa a processar uma solicitação porque a carga útil da solicitação é maior do que o servidor está disposto a processar.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "414": {
+      "title": "URI Too Long",
+      "description": "O servidor está se recusando a atender à solicitação porque o alvo da solicitação é mais longo do que o servidor está disposto a interpretar.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "415": {
+      "title": "Unsupported Media Type",
+      "description": "O servidor de origem se recusa a atender à solicitação porque o payload está em um formato não compatível com este método no alvo de destino.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "416": {
+      "title": "Range Not Satisfiable",
+      "description": "O conjunto de intervalos solicitados foi rejeitado devido a intervalos inválidos.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "417": {
+      "title": "Expectation Failed",
+      "description": "A expectativa fornecida no campo de cabeçalho esperado da solicitação não pôde ser atendida pelo servidor de entrada.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "418": {
+      "title": "I'm a teapot",
+      "description": "Não posso preparar seu café porque sou um bule de chá.",
+      "conclusion": "I cannot brew your coffee because I'm a teapot."
+    },
+    "421": {
+      "title": "Misdirected Request",
+      "description": "O servidor não está configurado para produzir respostas para a combinação de esquema e autoridade que estão incluídos no URI do pedido.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "422": {
+      "title": "Unprocessable Entity",
+      "description": "O servidor não conseguiu processar as instruções contidas.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "423": {
+      "title": "Locked",
+      "description": "O recurso de origem ou destino de um método está bloqueado.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "424": {
+      "title": "Failed Dependency",
+      "description": "O método não pôde ser executado no recurso porque a ação solicitada dependia de outra ação que falhou.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "425": {
+      "title": "Too Early",
+      "description": "O servidor não está disposto a correr o risco de processar uma solicitação que pode ser reproduzida.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "426": {
+      "title": "Upgrade Required",
+      "description": "O servidor se recusa a realizar a solicitação usando o protocolo atual.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "428": {
+      "title": "Precondition Required",
+      "description": "O servidor de origem exige que a solicitação seja condicional.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "429": {
+      "title": "Too Many Requests",
+      "description": "O usuário enviou muitas solicitações em um determinado período.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "431": {
+      "title": "Request Header Fields Too Large",
+      "description": "O servidor não deseja processar a solicitação porque seus campos de cabeçalho são muito grandes.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "451": {
+      "title": "Unavailable For Legal Reasons",
+      "description": "O servidor está negando acesso ao recurso como consequência de uma demanda legal.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "500": {
+      "title": "Internal server error",
+      "description": "O servidor encontrou uma condição inesperada que o impediu de atender à solicitação.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "501": {
+      "title": "Not Implemented",
+      "description": "O servidor não oferece suporte à funcionalidade necessária para atender à solicitação.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "502": {
+      "title": "Bad Gateway",
+      "description": "O servidor, ao atuar como gateway ou proxy, recebeu uma resposta inválida de um servidor de entrada.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "503": {
+      "title": "Service Unavailable",
+      "description": "O servidor está atualmente em manutenção.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "504": {
+      "title": "Gateway Timeout",
+      "description": "O servidor, ao atuar como gateway ou proxy, não recebeu uma resposta oportuna de um servidor upstream.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "505": {
+      "title": "HTTP Version Not Supported",
+      "description": "O servidor não suporta a versão principal de HTTP que foi usada na mensagem de solicitação.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "506": {
+      "title": "Variant Also Negotiates",
+      "description": "O servidor tem um erro de configuração interno.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "507": {
+      "title": "Insufficient Storage",
+      "description": "O servidor não pode armazenar a representação necessária para concluir a solicitação com êxito.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "508": {
+      "title": "Loop Detected",
+      "description": "O servidor encerrou uma operação porque encontrou um loop infinito ao processar uma solicitação.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "510": {
+      "title": "Not Extended",
+      "description": "A política de acesso ao recurso não foi atendida na solicitação.",
+      "conclusion": "Lamentamos o inconveniente."
+    },
+    "511": {
+      "title": "Network Authentication Required",
+      "description": "O cliente precisa se autenticar para obter acesso à rede.",
+      "conclusion": "Lamentamos o inconveniente."
+    }
+  }
+}
+

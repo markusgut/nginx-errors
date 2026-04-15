@@ -1,0 +1,207 @@
+{
+  "language": "en",
+  "button": "Go back",
+  "errors": {
+    "400": {
+      "title": "Bad Request",
+      "description": "The server cannot process the request due to a client error.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "401": {
+      "title": "Unauthorized",
+      "description": "The request has not been applied because it lacks valid authentication credentials for the target resource.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "402": {
+      "title": "Payment Required",
+      "description": "Reserved for future use.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "403": {
+      "title": "Forbidden",
+      "description": "The server refused to authorize the request.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "404": {
+      "title": "Not Found",
+      "description": "The requested file or page cannot be found at this address.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "405": {
+      "title": "Method Not Allowed",
+      "description": "The method received in the request-line is not supported by the target resource.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "406": {
+      "title": "Not Acceptable",
+      "description": "The target resource does not have a current representation that would be acceptable to the user agent.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "407": {
+      "title": "Proxy Authentication Required",
+      "description": "The client needs to authenticate itself in order to use a proxy.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "408": {
+      "title": "Request Timeout",
+      "description": "The server did not receive a complete request message within the time that it was prepared to wait.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "409": {
+      "title": "Conflict",
+      "description": "The request could not be completed due to a conflict with the current state of the target resource..",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "410": {
+      "title": "Gone",
+      "description": "The access to the target resource is no longer available at the origin server.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "411": {
+      "title": "Length Required",
+      "description": "The server refuses to accept the request without a defined Content-Length.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "412": {
+      "title": "Precondition Failed",
+      "description": "One or more conditions given in the request header fields evaluated to false when tested on the server.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "413": {
+      "title": "Payload Too Large",
+      "description": "The server is refusing to process a request because the request payload is larger than the server is willing to process.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "414": {
+      "title": "URI Too Long",
+      "description": "The server is refusing to service the request because the request-target is longer than the server is willing to interpret.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "415": {
+      "title": "Unsupported Media Type",
+      "description": "The origin server is refusing to service the request because the payload is in a format not supported by this method on the target resource.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "416": {
+      "title": "Range Not Satisfiable",
+      "description": "The set of ranges requested has been rejected due to invalid ranges.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "417": {
+      "title": "Expectation Failed",
+      "description": "The expectation given in the request's expect header field could not be met by the inbound server.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "418": {
+      "title": "I'm a teapot",
+      "description": "I cannot brew your coffee because I'm a teapot.",
+      "conclusion": "I cannot brew your coffee because I'm a teapot."
+    },
+    "421": {
+      "title": "Misdirected Request",
+      "description": "The server is not configured to produce responses for the combination of scheme and authority that are included in the request URI.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "422": {
+      "title": "Unprocessable Entity",
+      "description": "The server was unable to process the contained instructions.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "423": {
+      "title": "Locked",
+      "description": "The source or destination resource of a method is locked.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "424": {
+      "title": "Failed Dependency",
+      "description": "The method could not be performed on the resource because the requested action depended on another action failed.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "425": {
+      "title": "Too Early",
+      "description": "The server is unwilling to risk processing a request that might be replayed.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "426": {
+      "title": "Upgrade Required",
+      "description": "The server refuses to perform the request using the current protocol.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "428": {
+      "title": "Precondition Required",
+      "description": "The origin server requires the request to be conditional.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "429": {
+      "title": "Too Many Requests",
+      "description": "The user has sent too many requests in a given amount of time.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "431": {
+      "title": "Request Header Fields Too Large",
+      "description": "The server is unwilling to process the request because its header fields are too large.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "451": {
+      "title": "Unavailable For Legal Reasons",
+      "description": "The server is denying access to the resource as a consequence of a legal demand.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "500": {
+      "title": "Internal server error",
+      "description": "The server encountered an unexpected condition that prevented it from fulfilling the request.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "501": {
+      "title": "Not Implemented",
+      "description": "The server does not support the functionality required to fulfill the request.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "502": {
+      "title": "Bad Gateway",
+      "description": "The server, while acting as a gateway or proxy, received an invalid response from an inbound server.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "503": {
+      "title": "Service Unavailable",
+      "description": "The server is currently down for maintenance.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "504": {
+      "title": "Gateway Timeout",
+      "description": "The server, while acting as a gateway or proxy, did not receive a timely response from an upstream server.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "505": {
+      "title": "HTTP Version Not Supported",
+      "description": "The server does not support the major version of HTTP that was used in the request message.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "506": {
+      "title": "Variant Also Negotiates",
+      "description": "The server has an internal configuration error.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "507": {
+      "title": "Insufficient Storage",
+      "description": "The server is unable to store the representation needed to successfully complete the request.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "508": {
+      "title": "Loop Detected",
+      "description": "The server terminated an operation because it encountered an infinite loop while processing a request.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "510": {
+      "title": "Not Extended",
+      "description": "The policy for accessing the resource has not been met in the request.",
+      "conclusion": "We are sorry for the inconvenience."
+    },
+    "511": {
+      "title": "Network Authentication Required",
+      "description": "The client needs to authenticate to gain network access.",
+      "conclusion": "We are sorry for the inconvenience."
+    }
+  }
+}
+
